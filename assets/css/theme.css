@@ -2024,7 +2024,7 @@ body.loaded:after {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(45deg, #c6ff00 0%, #76ff03 50%, #32cd32 100%);
+  background: -webkit-linear-gradient(45deg, #145a32 0%, #28a745 50%, #6aff00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
