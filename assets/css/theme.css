@@ -2028,7 +2028,7 @@ body.loaded:after {
     #145a32 0%,
     #1e7b3a 30%,
     #38c148 60%,
-    #6aff00 100%);
+    #6aff00 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
