@@ -869,8 +869,8 @@ a:focus, a:active, button:focus, button:active {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #ff82f3;
-  background-image: linear-gradient(45deg, #ff82f3 0%, #7b13ff 50%, #400d64 100%);
+  background-color: #12b736;
+  background-image: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
   width: 100%;
   height: 100%;
   -webkit-transition: linear 0.1s;
@@ -882,8 +882,8 @@ a:focus, a:active, button:focus, button:active {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #ff82f3;
-  background-image: linear-gradient(45deg, #ff82f3 0%, #7b13ff 50%, #400d64 100%);
+  background-color: #12b736;
+  background-image: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
   width: 100%;
   height: 2px;
   -webkit-transition: linear 0.1s;
@@ -932,8 +932,8 @@ a:focus, a:active, button:focus, button:active {
   bottom: 0;
   left: 0;
   opacity: 0;
-  background-color: #ff82f3;
-  background-image: linear-gradient(45deg, #ff82f3 0%, #7b13ff 50%, #400d64 100%);
+  background-color: #12b736;
+  background-image: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
   -webkit-transition: linear 0.1s;
   transition: linear 0.1s;
 }
@@ -1150,8 +1150,8 @@ button.mfp-close:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #ff82f3;
-  background-image: linear-gradient(45deg, #ff82f3 0%, #7b13ff 50%, #400d64 100%);
+  background-color: #12b736;
+  background-image: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
   width: 100%;
   height: 100%;
   -webkit-transition: linear 0.1s;
@@ -1163,8 +1163,8 @@ button.mfp-close:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #ff82f3;
-  background-image: linear-gradient(45deg, #ff82f3 0%, #7b13ff 50%, #400d64 100%);
+  background-color: #12b736;
+  background-image: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
   width: 100%;
   height: 2px;
   -webkit-transition: linear 0.1s;
@@ -1256,8 +1256,8 @@ button.mfp-close:hover {
 
 .swiper-testimonial-pagination.swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
 .swiper-testimonial-pagination.swiper-pagination-horizontal .swiper-pagination-progressbar-fill {
-  background-color: #ff82f3;
-  background-image: linear-gradient(45deg, #ff82f3 0%, #7b13ff 50%, #400d64 100%);
+  background-color: #12b736;
+  background-image: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
 }
 
 .testimonial-box {
@@ -1354,8 +1354,8 @@ button.mfp-close:hover {
   top: 0;
   left: 0;
   opacity: 0;
-  background-color: #ff82f3;
-  background-image: linear-gradient(45deg, #ff82f3 0%, #7b13ff 50%, #400d64 100%);
+  background-color: #12b736;
+  background-image: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
   width: 100%;
   height: 100%;
   -webkit-transition: linear 0.1s;
@@ -1541,7 +1541,7 @@ button.mfp-close:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #6ae17a; /* světlá zelená jako fallback */
+  background-color: #6ae17a; 
   background-image: linear-gradient(45deg, #6ae17a 0%, #3cba54 50%, #1f6a32 100%);
   width: 100%;
   height: 100%;
@@ -1656,8 +1656,8 @@ button.mfp-close:hover {
   top: 0;
   left: 0;
   opacity: 0;
-  background-color: #ff82f3;
-  background-image: linear-gradient(45deg, #ff82f3 0%, #7b13ff 50%, #400d64 100%);
+  background-color: #12b736;
+  background-image: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
   width: 100%;
   height: 100%;
   -webkit-transition: linear 0.1s;
