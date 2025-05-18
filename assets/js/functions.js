@@ -251,77 +251,9 @@ $lightboxMedia.each(function() {
 /*===============================================
   7. Google Maps
 ===============================================*/
-var mapCanvas = $(".gmap");
 
-if (mapCanvas.length) {
-  var m,divId,initLatitude, initLongitude, map;
-
-  for (var i = 0; i < mapCanvas.length; i++) {
-    m = mapCanvas[i];
-
-    initLatitude = m.dataset["latitude"];
-    initLongitude = m.dataset["longitude"];
-    divId = "#"+ m["id"];
-
-    map = new GMaps({
-      el: divId,
-      lat: initLatitude,
-      lng: initLongitude,
-      zoom: 16,
-      scrollwheel: false,
-      styles: [
-          /* style your map at https://snazzymaps.com/editor and paste JSON here */
-      ]
-    });
-
-    map.addMarker({
-      lat : initLatitude,
-      lng : initLongitude
-    });
-  }
-}
 
 
 /*===============================================
   8. Contact Form
 ===============================================*/
-$("#contactform").on("submit", function(e) {
-  var name = $("#name").val();
-  var email = $("#email").val();
-  var subject = $("#subject").val();
-  var message = $("#message").val();
-
-  if (name === "") {
-    $("#name").addClass("error-color");
-  }
-  if (email === "") {
-    $("#email").addClass("error-color");
-  }
-  if (subject === "") {
-    $("#subject").addClass("error-color");
-  }
-  if (message === "") {
-    $("#message").addClass("error-color");
-  }
-
-  else {
-    $.ajax({
-      url:"assets/php/contact-form.php",
-      data:$(this).serialize(),
-      type:"POST",
-      success:function(data){
-        $("#success").addClass("show-result"); //=== Show Success Message==
-        $("#contactform").each(function(){
-          this.reset();
-        });
-      },
-      error:function(data){
-        $("#error").addClass("show-result"); //===Show Error Message====
-      }
-    });
-    var forms = $("#contactform input, #contactform textarea");
-    forms.removeClass("error-color");
-  }
-
-  e.preventDefault();
-});
