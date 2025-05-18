@@ -1531,7 +1531,7 @@ button.mfp-close:hover {
   -webkit-box-shadow: 0 8px 24px 0 rgba(22, 24, 26, 0.07);
   box-shadow: 0 8px 24px 0 rgba(22, 24, 26, 0.07);
   padding: 26px 30px;
-  text-align: left;
+  text-align: center;
   -webkit-transition: linear 0.1s;
   transition: linear 0.1s;
 }
@@ -1672,7 +1672,7 @@ button.mfp-close:hover {
   transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.portfolio-box .portfolio-img:hover a:before {
+.portfolix .portfolio-img:hover a:before {
   opacity: 0.1;
 }
 
