@@ -251,7 +251,7 @@ $lightboxMedia.each(function() {
 const logo = document.querySelector('.header .header-wrapper .header-logo');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 50) {
+  if (window.scrollY > 150) {
     logo.classList.add('hidden');
   } else {
     logo.classList.remove('hidden');
