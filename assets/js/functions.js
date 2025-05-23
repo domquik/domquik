@@ -248,12 +248,13 @@ $lightboxMedia.each(function() {
 });
 
 
-/*===============================================
-  7. Google Maps
-===============================================*/
+const logo = document.querySelector('.header .header-wrapper .header-logo');
 
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) {
+    logo.classList.add('hidden');
+  } else {
+    logo.classList.remove('hidden');
+  }
+});
 
-
-/*===============================================
-  8. Contact Form
-===============================================*/

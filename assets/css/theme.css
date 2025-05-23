@@ -1510,6 +1510,17 @@ button.mfp-close:hover {
   max-height: 42px;
 }
 
+.header .header-wrapper .header-logo {
+  display: inline-flex;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.header .header-wrapper .header-logo.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .header .header-wrapper .header-nav {
   position: relative;
   display: inline-flex;
