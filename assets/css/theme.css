@@ -2043,3 +2043,8 @@ body.loaded:after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.small-icon {
+  font-size: 0.85rem;       /* nebo napr. 14px */
+  vertical-align: middle;   /* pro lepsi zarovnani s textem */
+}
