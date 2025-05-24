@@ -2048,3 +2048,15 @@ body.loaded:after {
   font-size: 0.85rem;       /* nebo napr. 14px */
   vertical-align: middle;   /* pro lepsi zarovnani s textem */
 }
+
+/* Nadpis zarovnat na střed */
+#portfolio h1.display-3 {
+  text-align: center;
+}
+
+/* Kontejner tlačítek se šipkami zarovnat na střed */
+#portfolio > .section-sm > .container > .row > .col-12 > .mt-4 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* mezera mezi šipkami */
+}
