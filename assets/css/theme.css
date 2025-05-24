@@ -2060,3 +2060,31 @@ body.loaded:after {
   justify-content: center;
   gap: 1rem; /* mezera mezi šipkami */
 }
+
+.portfolio-box {
+  text-align: center; /* Zarovná text i ikony pod obrázkem na střed */
+}
+
+.portfolio-box .portfolio-img-wide,
+.portfolio-box .2heartless {
+  display: flex;
+  justify-content: center; /* Zarovná obrázek na střed */
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-box {
+  text-align: center;
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-box {
+  text-align: center;
+}
