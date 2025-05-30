@@ -2088,3 +2088,20 @@ body.loaded:after {
 .portfolio-box {
   text-align: center;
 }
+
+
+body {
+
+    cursor: none;
+
+}
+
+
+@media (max-width: 2560px) {
+.logo{height: 300px;}
+}
+
+
+@media (max-width: 414px) {
+.logo{height: auto;}
+}
