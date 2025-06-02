@@ -1,68 +1,83 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FILL UKG BOOTLEG – DOMQUIK</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="favicon.png" />
+    <style>
+      .btn-gradient {
+        background: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        transition: transform 0.2s ease;
+      }
+      .btn-gradient:hover {
+        transform: scale(1.05);
+      }
+    </style>
   </head>
   <body class="bg-black text-gray-100 font-sans leading-relaxed">
     <main class="max-w-4xl mx-auto px-6 py-12">
-      <!-- Zpět -->
-      <a href="#" class="text-gray-400 hover:text-white text-sm inline-block mb-10 transition">
-        ← Zpět na portfolio
+      <!-- Back Button -->
+      <a href="index.html#portfolio" class="btn-gradient text-sm inline-block mb-10">
+        ← Back to portfolio
       </a>
 
-      <!-- Nadpis -->
+      <!-- Title -->
       <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white tracking-tight">
-        DOMQUIK
+        FILL UKG BOOTLEG
       </h1>
       <p class="text-lg text-gray-400 mb-10">
-        Cover design pro remix J. Cole – Neighbors. Stylizace ve vizuálu „4 Your Eyez Only“, s osobním twistem.
+        Cover design for a remix of J. Cole’s “Neighbors.” Inspired by the “4 Your Eyez Only” aesthetic, with a personal twist.
       </p>
 
-      <!-- Hlavní obrázek -->
+      <!-- Main Image -->
       <img src="images/fillbootleg-cover.jpg" alt="FILL UKG BOOTLEG cover" class="rounded-xl shadow-2xl mb-12" />
 
-      <!-- Textová část -->
+      <!-- Description -->
       <section class="space-y-6">
         <p>
-          Tento cover vznikl jako vizuální doprovod pro UK Garage remix skladby „Neighbors“. Chtěl jsem zachovat atmosféru originálního
-          alba „4 Your Eyez Only“, ale zároveň přidat barevnější a osobitější vrstvu.
+          This cover was created to visually represent a UK Garage remix of the song “Neighbors.” I wanted to keep the vibe of the
+          original “4 Your Eyez Only” album artwork while adding a more colorful and expressive direction.
         </p>
 
         <p>
-          Dominantním prvkem je pozadí připomínající roztrhaný papír v teplých oranžových tónech. Font v ručním stylu dodává designu
-          autentický DIY charakter, zatímco čistá kompozice zajišťuje čitelnost i v menších náhledech.
+          The background features a torn paper texture in warm orange tones. A handwritten-style font gives it a DIY, authentic feel,
+          while the clean layout keeps everything readable even at smaller sizes.
         </p>
 
         <p>
-          Projekt vznikl ve Photoshopu, důraz byl kladen na textury, kompozici a kontrast. Design reflektuje nejen zvukovou náladu
-          tracku, ale i estetiku UKG scény.
+          The design was made in Photoshop, with attention to texture, layout, and contrast. It reflects both the energy of the track
+          and the aesthetic of the UKG scene.
         </p>
       </section>
 
-      <!-- Galerie -->
+      <!-- Gallery -->
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
         <img src="images/fillbootleg-detail1.jpg" alt="Detail 1" class="rounded-lg shadow-lg" />
         <img src="images/fillbootleg-detail2.jpg" alt="Detail 2" class="rounded-lg shadow-lg" />
       </div>
 
-      <!-- Odkazy -->
-      <div class="mt-12 flex flex-wrap gap-6">
+      <!-- Links -->
+      <div class="mt-12 flex flex-wrap gap-4">
         <a
-          href="https://github.com/tvujgithub"
+          href="https://github.com/yourusername"
           target="_blank"
-          class="text-blue-400 hover:underline"
-          >GitHub</a
+          class="btn-gradient text-sm"
         >
+          GitHub
+        </a>
         <a
           href="https://soundcloud.com/fill/..."
           target="_blank"
-          class="text-blue-400 hover:underline"
-          >Live poslech</a
+          class="btn-gradient text-sm"
         >
+          Listen on SoundCloud
+        </a>
       </div>
     </main>
   </body>
