@@ -2105,3 +2105,12 @@ body {
 @media (max-width: 414px) {
 .logo{height: auto;}
 }
+
+.gradient-text {
+  background: linear-gradient(45deg, #12b736 0%, #0c8025 50%, #044d14 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+}
